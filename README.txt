@@ -22,3 +22,5 @@ terdapat fitur lain pula seperti responsive di semua device, dan berikut adalah 
 https://keirattlexnake.github.io/GDSC_Front-end_220020129-_AdiyaTanayaPermana/
 
 sekian, terimakasih
+
+*note tambahan = maaf banget kak isi menu menunya sama, saya lagi di bantai tugas gabisa menghayal soal isinya hehehehe
