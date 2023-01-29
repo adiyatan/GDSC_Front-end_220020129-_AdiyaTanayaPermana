@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Warung Adiya</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <!-- navbar -->
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="#">Warung Adiya</a></div>
+        <ul class="links">
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#promo">Promo</a></li>
+          <li>
+            <a href="menu/menus/index.html" class="desktop-link">Menu</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Menu</label>
+            <ul>
+                <li><a href="menu/menus/index.html#makanan">Makanan</a></li>
+                <li><a href="menu/menus/index.html#minuman">Minuman</a></li>
+                <li><a href="menu/menus/index.html#flashsale">Flashsale</a></li>
+                <li>
+                  <a href="menu/menus/menubaru.html" class="desktop-link">Menu Baru</a>
+                  <input type="checkbox" id="show-items">
+                  <label for="show-items">Menu Baru</label>
+                  <ul>
+                      <li><a href="menu/menus/menubaru.html#imlek">Imlek</a></li>
+                      <li><a href="menu/menus/menubaru.html#val">Valentine</a></li>
+                </ul>
+                </li>
+              </ul>
+          </li>
+        </ul>
+      </div>
+      <label id="search-input" for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="" class="search-box" method="post">
+        <input id="search" type="search" autocomplete="off" placeholder="Belum aktif karena hanya mementingkan frontend, namun kode sudah dibuat di folder js" required >
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </nav>
+  </div>
+
+  <!-- main -->
+  <div class="main">
+
+    <!-- beranda -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Makan Enak di Tengah Kota dengan <span>Warung Adiya</span></h1>
+        <p>Nikmati hidangan Internasional dengan sentuhan fancy</p>
+        <a href="pesanmenu.html" target="_blank" class="cta">Pesan sekarang</a>
+      </main>
+    </section>
+  
+    <!-- promo -->
+    <section class="promo" id="promo">
+      <h2>Menu<span> Promo</span></h2>
+      <p>Berikut menu promo yang tersedia</p>
+
+      <div class="row">
+        <div class="promo-card">
+          <a href="menu/promo/promo1.html">
+          <img src="./img/2.png" alt="promo 1" class="promo-img">
+          <h3 class="promo-title">Promo 1</h3>
+          <p class="promo-price"><del>IDR 280K</del> IDR 150K</p>
+        </a>
+        </div>
+        <div class="promo-card">
+          <a href="menu/promo/promo2.html">
+          <img src="./img/3.png" alt="promo 2" class="promo-img">
+          <h3 class="promo-title">Promo 2</h3>
+          <p class="promo-price"><del>IDR 320K</del> IDR 220K</p>
+        </a>
+        </div>
+        <div class="promo-card">
+          <a href="menu/promo/promo3.html">
+          <img src="./img/4.png" alt="promo 3" class="promo-img">
+          <h3 class="promo-title">Promo 3</h3>
+          <p class="promo-price"><del>IDR 310K</del> IDR 220K</p>
+        </a>
+        </div>
+        <div class="promo-card">
+          <a href="menu/promo/promo4.html">
+          <img src="./img/5.png" alt="promo 4" class="promo-img">
+          <h3 class="promo-title">Promo 4</h3>
+          <p class="promo-price"><del>IDR 290K</del> IDR 160K</p>
+        </a>
+        </div>
+
+
+      </div>
+
+
+      
+    </section>
+
+    
+  
+  </div>
+    
+    
+
+
+</body>
+</html>

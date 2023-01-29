@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Warung Adiya</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <!-- navbar -->
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="#">Warung Adiya</a></div>
+        <ul class="links">
+          <li><a href="../../index.html#home">Beranda</a></li>
+          <li><a href="../../index.html#promo">Promo</a></li>
+          <li>
+            <a href="#option" class="desktop-link">Menu</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Menu</label>
+            <ul>
+                <li><a href="../menus/index.html#makanan">Makanan</a></li>
+                <li><a href="../menus/index.html#minuman">Minuman</a></li>
+                <li><a href="../menus/index.html#flashsale">Flashsale</a></li>
+                <li>
+                  <a href="menubaru.html" class="desktop-link">Menu Baru</a>
+                  <input type="checkbox" id="show-items">
+                  <label for="show-items">Menu Baru</label>
+                  <ul>
+                      <li><a href="menubaru.html#imlek">Imlek</a></li>
+                      <li><a href="menubaru.html#val">Valentine</a></li>
+                </ul>
+                </li>
+              </ul>
+          </li>
+
+        </ul>
+      </div>
+      <label id="search-input" for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="" class="search-box" method="post">
+        <input id="search" type="search" autocomplete="off" placeholder="Belum aktif karena hanya mementingkan frontend, namun kode sudah dibuat di folder js" required >
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </nav>
+  </div>
+
+  <!-- main -->
+  <div class="main">
+    <section class="option" id="option">
+
+        <h3 class="sub-heading"> Menu </h3>
+        <h1 class="heading"> Pilih menu yang tersedia dibawah </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="../../img/banner (1).png" alt="">
+                <h3>Makanan</h3>
+                <div class="stars">
+                </div>
+                <a href="#makanan" class="btn">Pilih</a>
+            </div>
+            <div class="box">
+                <img src="../../img/banner (2).png" alt="">
+                <h3>Minuman</h3>
+                <div class="stars">
+                </div>
+                <a href="#minuman" class="btn">Pilih</a>
+            </div>
+            <div class="box">
+                <img src="../../img/banner (3).png" alt="">
+                <h3>Flashsale</h3>
+                <div class="stars">
+                </div>
+                <a href="#flashsale" class="btn">Pilih</a>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- menu section starts  -->
+
+    <section class="menus" id="makanan">
+
+        <h3 class="sub-heading"> Makanan </h3>
+        <h1 class="heading">Berikut Makanan special dari Warung Adiya</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="../../img/makanan (1).png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Salmon kecap pedas</h3>
+                    <p class="price">IDR 205K</p>
+                    <a href="makanan1.html" class="btn">Pilih</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="../../img/makanan (2).png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Salmon sambal matah</h3>
+                    <p class="price">IDR 230K</p>
+                    <a href="makanan2.html" class="btn">Pilih</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="../../img/makanan (3).png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Oseng salmon mercon</h3>
+                    <p class="price">IDR 210K</p>
+                    <a href="makanan3.html" class="btn">Pilih</a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section class="menus" id="minuman">
+
+        <h3 class="sub-heading"> Minuman </h3>
+        <h1 class="heading">Berikut Makanan special dari Warung Adiya</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="../../img/minuman (1).png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Negroni</h3>
+                    <p class="price">IDR 112K</p>
+                    <a href="minuman1.html" class="btn">Pilih</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="../../img/minuman (2).png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Singapore Sling</h3>
+                    <p class="price">IDR 90K</p>
+                    <a href="minuman2.html" class="btn">Pilih</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="../../img/minuman (3).png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Caipirinha</h3>
+                    <p class="price">IDR 124K</p>
+                    <a href="minuman3.html" class="btn">Pilih</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="menus" id="flashsale">
+
+        <h3 class="sub-heading"> Flashsale </h3>
+        <h1 class="heading">Berikut Makanan dan Minuman yang sedang flashsale dari Warung Adiya</h1>
+        <h2 style="color: red;">Maaf stok kosong</h2>
+
+    </section>
+
+  </div>
+
+</body>
+</html>
