@@ -24,3 +24,5 @@ https://keirattlexnake.github.io/GDSC_Front-end_220020129-_AdiyaTanayaPermana/
 sekian, terimakasih
 
 *note tambahan = maaf banget kak isi menu menunya sama, saya lagi di bantai tugas gabisa menghayal soal isinya hehehehe
+
+*note 12 Feb = Menambahkan fitur food pedia pada navbar
